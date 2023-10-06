@@ -1,6 +1,5 @@
 import uuid
 import networkx as nx
-import matplotlib.pyplot as plt
 import copy
 import time
 from logger import write_result

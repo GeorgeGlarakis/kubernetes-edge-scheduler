@@ -1,4 +1,4 @@
-FROM python:3
+FROM python:3.7
 COPY . /custom-scheduler
 WORKDIR /custom-scheduler
 RUN pip3 install -r requirements.txt
